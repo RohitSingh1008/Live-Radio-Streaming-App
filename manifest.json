@@ -1,0 +1,59 @@
+{
+  "name": "RadioTube | Live FM Radio",
+  "short_name": "RadioTube",
+  "start_url": "./index.html",
+   "scope": "/",
+  "display": "standalone",
+  "display_override": [
+    "standalone"
+  ],
+  "background_color": "#000000",
+  "theme_color": "#0b3d2e",
+  "version": "1.1.0",
+  "orientation": "portrait",
+  "lang": "en-IN",
+  "categories": [
+    "music",
+    "entertainment"
+  ],
+  "description": "Listen to live FM radio channels with RadioTube.",
+  "launch_handler": {
+    "client_mode": "focus-existing"
+  },
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "/radio-fm-icon-17115.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/radio-fm-icon-17115.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Play Radio",
+      "short_name": "Play",
+      "url": "/index.html#play",
+      "icons": [
+        {
+          "src": "/radio-fm-icon-17115.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+ "related_applications": [
+  {
+    "platform": "play",
+    "url": "https://play.google.com/store/apps/details?id=com.radiotube.app",
+    "id": "com.radiotube.app"
+  }
+ ]
+
+}
